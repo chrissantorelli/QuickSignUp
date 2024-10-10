@@ -4,7 +4,7 @@ from flask_bcrypt import Bcrypt
 import os
 
 app = Flask(__name__)
-app.secret_key = '1nC0mPr3h3nS1b13-But-D3l1b3r@t3!'
+app.secret_key = '1nC0mPr3h3nS1b13-But-D3l1b3r@t3!'  # SAMPLE KEY make a new one and place it in a .env file!
 bcrypt = Bcrypt(app)
 DATABASE = 'QuickSignUpDatabase.db'
 
